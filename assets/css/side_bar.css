@@ -1,0 +1,31 @@
+/* Dark-themed sidebar */
+.sidebar {
+  background-color: #1e1e1e;   /* Dark gray background */
+  color: #ffffff;              /* White text */
+  width: 200px;                /* Narrower width */
+}
+
+/* Make links in sidebar white */
+.sidebar a {
+  color: #ffffff;
+}
+
+/* Highlight active page link */
+.sidebar .active {
+  background-color: #333333;
+  font-weight: bold;
+}
+
+.main {
+  margin-left: 200px; 
+}
+
+.sidebar .nav-list .nav-list-item > a {
+  padding: 6px 12px;
+  font-size: 14px;
+}
+
+body {
+  background-color: lime !important;
+}
+
